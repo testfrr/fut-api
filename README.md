@@ -237,7 +237,7 @@ var apiClient = new futapi([options]);
         * pile: string
         * success: boolean
         
-## send to tradepile
+## send to club
 ```javascript
   apiClient.sendToClub(itemDataId, function(error, response){ });
 ```
