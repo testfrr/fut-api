@@ -22,7 +22,7 @@ var apiClient = new futapi([options]);
   }
 
     
-    apiClient.login("username","password","secret", "platform"
+    apiClient.login("username","password","secret", "platform",
     	twoFactorCodeCb,
     	function(error,response){
     	if(error) {
